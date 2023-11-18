@@ -2,13 +2,14 @@
 	<head>
 		<meta charset="utf-8"/>
 	</head>
+	<link rel="stylesheet" type="text/css" href="style.css" />
 	<body>
-		<h3>Digite um numero:</h3>
-		<row>
-			<input id='numero' type="text" />
-			<button onclick="calcular()">Calcular</button>
+		<h2>Digite um numero:</h2>
+		<row class="center">
+			<input style="margin-right: 20px;" id='numero' type="text" />
+			<button id="botao" onclick="calcular()">Calcular</button>
 		</row>
-		<h3 id='divisiveis'></h3>
+		<h3 class="center" id='divisiveis'></h3>
 		<h2 id='resultado'></h2>
 		<script type="text/javascript" src="script.js"></script>
 

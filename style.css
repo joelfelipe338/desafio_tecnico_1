@@ -1,0 +1,18 @@
+h2{
+    color:red;
+    text-align: center;
+    
+}
+.center{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#botao{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 13;
+    border-radius: 10px;
+    border: none;
+}
