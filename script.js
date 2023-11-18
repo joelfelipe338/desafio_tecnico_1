@@ -25,9 +25,9 @@ function calcular(){
 	}
 }
 
-setInterval(() => {
+/*setInterval(() => {
 	resultado = document.getElementById('resultado');
 	cores = ['blue','red','black','gray','pink','orange','green']
 	resultado.style.color = cores[Math.floor(Math.random()*cores.length)];
-}, 150)
+}, 150)*/
 
